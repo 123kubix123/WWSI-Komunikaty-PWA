@@ -41,7 +41,7 @@ public class RssReader {
         client.getOptions().setJavaScriptEnabled(false);
         url = "https://student.wwsi.edu.pl/info";
         Posts = new ArrayList<Post>();
-        user = new NameValuePair("login","j_wolski");
+        user = new NameValuePair("login","login");
         String passwordStr = "";
         try {
             File pass = new File("pass.txt");
